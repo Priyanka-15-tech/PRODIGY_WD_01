@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('foodtheme.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    list-style-type: none;
+}
+
+.navigation li {
+    margin-bottom: 10px;
+}
+
+.navigation li a {
+    font-size: 40px;
+    display: block;
+    padding: 30px;
+    color: #00FF00;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navigation li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.content {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: white;
+}
+
+.details-section {
+    display: none;
+    margin-top: 20px;
+}
+
+.details-section.active {
+    display: block;
+}
